@@ -1,5 +1,10 @@
-[
-  {
+{
+  "name": "FaselHD Providers",
+  "version": "16.2.0",
+  "description": "FaselHD provider repository for Nuvio.",
+  "author": "Nuvio Team",
+  "scrapers": [
+    {
     "id": "nuvio-faselhd",
     "name": "FaselHD",
     "description": "Arabic Hard Sub movies, TV shows, and anime (~5s)",
@@ -11,5 +16,6 @@
     "formats": ["m3u8"],
     "logo": "https://raw.githubusercontent.com/nvmindl/nuvio-providers/main/Assets/faselhdx.png",
     "contentLanguage": ["en", "ar", "ja"]
-  }
-]
+    }
+  ]
+}
